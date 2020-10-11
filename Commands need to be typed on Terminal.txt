@@ -1,0 +1,80 @@
+When I am creating folder for the very first time I shld do all these steps
+
+                                     GLOBAL CONFIG LEVEL consists of step 1 and 2
+
+1. Open cmd in current folder
+2. only once u need to do this and type this command 
+   git config --global user.name "Ruthuparna_M _Patil"         # bcoz my Username is Ruthuparna_M-Patil
+3. only once u need to do this and type this command 
+   git config --global user.email "r19mds08@cit.reva.edu.in"       # bcoz my email is r19mds08@cit.reva.edu.in
+
+---------------------------------------------------------------------------------------------------------------------------
+                                        PROJECT LEVEL consists of  steps 4,5 
+   
+   Open cmd in current folder
+4. git init
+5. git remote add origin <link>    # bcoz I used Keyword as origin. we can use any keyword and the link that we need to paste there is the link which we get under Quick setup immediately after creating repository
+
+----------------------------------------------------------------------------------------------------------------------------------
+                                     UPDATION LEVEL consists of steps 6 to 12
+
+6. a) git add .               # This adds all files in the current working directory
+        or
+   b) git add <filename>      # only adds specific files not all files 
+7. git status                # to know the status of commited files and tracked files. here untracked files will be in red colour 
+8. git commit -m "Initial Commit"      # "Initial Commit" is the comment that we have given. we can give any comment like "removed bugs" etc   
+9. git status                # to know the status of commited files and tracked files. here tracked files will be in green colour
+10.git remote -v
+11. git push -u origin master   # we are pushing local files to server here 
+
+if the above command doesnt work at once then repeat steps 6,7,8 and then type above command once again
+
+12. If we want to add README.md file manually then open notepad or Sublime text then write somethings to it then repeat steps 6,8,11 
+
+--------------------------------------------------------------------------------------------------------------------
+                                                       ADDITIONAL COMMAND
+
+git remote -v                # to check current version 
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+Everytime I want to create new folder then only these below steps needs to be followed
+
+GLOBAL CONFIG LEVEL consists of step 1
+
+No need to do anything whenver we are creating folder for the first time then nly we shld use commands at this level
+
+-----------------------------------------------------------------------------------------------------------------------------
+PROJECT LEVEL consists of steps 2,3
+   
+   Open cmd in current folder
+2. git init
+3. git remote add origin <link>    # bcoz I used Keyword as origin. we can use any keyword and the link that we need to paste there is the link which we get under Quick setup immediately after creating repository
+
+-------------------------------------------------------------------------------------------------------------------
+UPDATE LEVEL consists of all below steps
+
+4. a) git add .               # This adds all files in the current working directory
+        or
+   b) git add <filename>      # only adds specific files not all files 
+5. git status                # to know the status of commited files and tracked files. here untracked files will be in red colour 
+6. git commit -m "Initial Commit"      # "Initial Commit" is the comment that we have given. we can give any comment like "removed bugs" etc   
+7. git status                # to know the status of commited files and tracked files. here tracked files will be in green colour
+8.git remote -v
+9. git push -u origin master   # we are pushing local files to server here 
+
+if the above command doesnt work at once then repeat steps 4,5,6 and then type above command once again
+
+10. If we want to add README.md file manually then open notepad or Sublime text then write somethings to it then repeat steps 4,6,9 
+
+---------------------------------------------------------------------------------------------------------------------------
+                                                       ADDITIONAL COMMAND
+
+git remote -v                # to check current version 
+
+
+
